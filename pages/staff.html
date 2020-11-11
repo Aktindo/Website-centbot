@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meet the team</title>
+    <link rel="shortcut icon" href="../images/favicon.ico" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/index-style.css">
+    <link rel="stylesheet" href="../styles/staff-style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+</head>
+<body>
+    <div class="main">
+
+        <div class="topnav" id="myTopnav">
+          <a href="../pages/index.html"><i class="fa fa-fw fa-home"></i> Home</a>
+          <a href="../pages/news.html"><i class="fa fa-fw fa-calendar"></i> News</a>
+          <a href="#documentation"><i class="fa fa-fw fa-book"></i> Documentation</a>
+          <a href="../pages/contact.html"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+          <a href="../pages/staff.html"  class="active"><i class="fa fa-fw fa-address-card"></i> Staff</a>
+          <a href="#server"><i class="fa fa-fw fa-desktop"></i> Server</a>
+        
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+            </div>
+            <div class="team-section">
+                <div class="inner-width">
+                  <h1 style="color: #7289DA;">Meet Our Team</h1>
+                  <div class="pers">
+            
+            
+                    <div class="pe">
+                      <img src="../images/aktindo.png" alt="">
+                      <div class="p-name">Aktindo</div>
+                      <div class="p-des">Lead Developer</div>
+                    </div>
+            
+                    <div class="pe">
+                      <img src="../images/ytgamework.png" alt="">
+                      <div class="p-name">YT GAMEWORKS</div>
+                      <div class="p-des">Lead Developer</div>
+                    </div>
+
+                    <div class="pe">
+                        <img src="../images/lolgamer.png" alt="">
+                        <div class="p-name">Lolgamer64</div>
+                        <div class="p-des">Head Administrator</div>
+                      </div>
+
+                      <div class="pe">
+                        <img src="../images/arihant.png" alt="">
+                        <div class="p-name">Arihant77[SAD]</div>
+                        <div class="p-des">Head Administrator</div>
+                      </div>
+            
+                </div>
+              </div>
+              
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><h4 style="font-size: 25px;"><i class="fa fa-fw fa-sort-asc"></i> </h4></button>
+        <script>
+            function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+        </script>
+        <script>
+            mybutton = document.getElementById("myBtn");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+        </script>
+</body>
+</html>

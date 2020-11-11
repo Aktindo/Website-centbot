@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latest news</title>
+    <link rel="shortcut icon" href="../images/favicon.ico" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/index-style.css">
+    <link rel="stylesheet" href="../styles/news-style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="topnav" id="myTopnav">
+            <a href="../pages/index.html"><i class="fa fa-fw fa-home"></i> Home</a>
+            <a href="../pages/news.html"   class="active"><i class="fa fa-fw fa-calendar"></i> News</a>
+            <a href="#documentation"><i class="fa fa-fw fa-book"></i> Documentation</a>
+            <a href="../pages/contact.html"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+            <a href="../pages/staff.html"><i class="fa fa-fw fa-address-card"></i> Staff</a>
+            <a href="#server"><i class="fa fa-fw fa-desktop"></i> Server</a>
+          
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+          <div class="announcements">
+            <h1 style="color: #7289DA ; text-align: center; margin-top: 260px; margin-bottom: 35px;">LATEST NEWS</h1>
+            <h4 style="color:#7289DA; margin-left: 30px; margin-bottom: 30px;">Following #📢┃announcements</h4>
+            <h5 style="color: white; margin-left: 30px; margin-bottom: 25px; opacity: 0.6;">11/08/2020</h5>
+            <p style="color:white; margin-left: 30px; margin-bottom: 30px; width: 50%;">@everyone Heyo, just wanna tell that @Cent Utilities will not be developed anytime this week or maybe this month. I am really getting into it and wanna try some other stuff like making a website or making my own software without any limitations. Discord bots are some useful chatbots after all. I will eventually come back to this after it gets a bit popular and there is no point of making it right now because mostly everything is done. So, I will be online on Discord but be a bit busy. @YT GAMEWORKS will continue developing this and I know one day, we will shine. Thank you for your support.
+              ~Aktindo</p>
+          </div>
+    </div>
+    <div class="footer">
+        <div class="footer-content">
+          <div class="footer-section-about">
+            <h1 class="logo-text" style="color: #7289DA; margin-bottom: 20px;"><span><img src="../images/bothappy.png" alt="logocentbot" width="40px"></span>Centbot</h1>
+            <p style="width: 50%;">
+              Centbot is a multi feature bot that includes moderation and a lot of features that most bots do not have. TIP: Go to the docs to find all the command names and usages!
+            </p>
+          </div>
+          <div class="footer-section-links">
+            <h1 style="color: #7289DA; margin-bottom: 20px;">Quick Links</h1>
+            <ul id="quicklinks" style="list-style-type: square;">
+              <li><a href="#" style="text-decoration: none; color: white; transition: 0.6s ease;">Home</a></li>
+              <li><a href="#" style="text-decoration: none; color: white; transition: 0.6s ease;">Contact</a></li>
+              <li><a href="#" style="text-decoration: none; color: white; transition: 0.6s ease;">Meet the team</a></li>
+              <li><a href="#" style="text-decoration: none; color: white; transition: 0.6s ease;">Documentation</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          &copy; Cent developers | Designed by Aktindo
+        </div>
+      </div>
+</div>
+<button onclick="topFunction()" id="myBtn" title="Go to top"><h4 style="font-size: 25px;"><i class="fa fa-fw fa-sort-asc"></i> </h4></button>
+<script>
+    function myFunction() {
+var x = document.getElementById("myTopnav");
+if (x.className === "topnav") {
+x.className += " responsive";
+} else {
+x.className = "topnav";
+}
+}
+</script>
+<script>
+    mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+mybutton.style.display = "block";
+} else {
+mybutton.style.display = "none";
+}
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+document.body.scrollTop = 0; // For Safari
+document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+</script>
+</body>
+</html>

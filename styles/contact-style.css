@@ -1,0 +1,52 @@
+.contactush {
+    margin-top: 200px;
+    text-align: center;
+    font-size: 40px;
+    color: #7289DA;
+}
+
+.contactusp {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.contactform {
+    text-align: center;
+    color: white;
+}
+
+.name {
+    color: #7289DA;
+    font-size: 25px;
+}
+
+.email {
+    color: #7289DA;
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+.enquiry {
+    color: #7289DA;
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+.buttonsubmit {
+    padding: 10px 20px 10px 20px;
+    background-color: #7289DA;
+    border-radius: 5px;
+    border: none;
+    font-size: 25px;
+    transition: 0.5s ease;
+    margin-top: 20px;
+    margin-bottom: 250px;
+}
+
+.buttonsubmit:hover {
+    cursor: pointer;
+    background-color: #5474e6;
+}
